@@ -359,7 +359,7 @@ const Deliverables: React.FC = () => {
     { 
       title: "Organização Master", 
       icon: <img src="http://criadorinteligente.com.br/wp-content/uploads/2025/12/organizacao3.png" alt="Organização Master" className="w-full h-auto rounded-xl" />, 
-      desc: "Visões completa da sua rotina.", 
+      desc: "Visão completa da sua rotina.", 
       tag: "ESTRUTURA", 
       isLast: true 
     },
@@ -483,7 +483,7 @@ const Pricing: React.FC = () => {
               </div>
               <div className="flex items-center gap-2 sm:gap-3 text-red-600 font-black text-[10px] sm:text-xs md:text-sm tracking-widest uppercase bg-red-50 px-4 sm:px-6 py-2 sm:py-3 rounded-2xl border border-red-100 shadow-sm">
                 <Zap size={18} className="fill-red-600 shrink-0" />
-                VÁLIDO ATÉ {currentDate}
+                VÁLIDA ATÉ {currentDate}
               </div>
             </div>
 
